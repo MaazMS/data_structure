@@ -26,11 +26,11 @@ int main()
 		minimum=index;                                            //  store the index number of block array 
 		for(sequence=index+1;sequence<number;sequence++)
 		{
-			if(block[sequence]<block[minimum])                     // this is condition for ascending oeder of number 
+			if(block[sequence]<block[minimum])                // this is condition for ascending oeder of number 
 			{
-				minimum=sequence;                                     // if find minimum  number then assign number to minimum 
+				minimum=sequence;                         // if find minimum  number then assign sequence number to minimum 
 			}
-			extra=block[index];                                    // swpe number of block array 
+			extra=block[index];                                // swpe number of block array 
 			block[index]=block[minimum];
 			block[minimum]=extra;
 
