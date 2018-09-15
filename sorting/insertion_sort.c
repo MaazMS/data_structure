@@ -23,7 +23,7 @@ int main()
 	for(index=1;index<number;index++)
 	{
 		extra=block[index];														// assign the number of index position .
-		for(sequence=index;sequence>0 && extra<block[sequence-1];sequence --)   /* loop is decrement to compare previous number .
+		for(sequence=index;sequence>0 && extra<block[sequence-1];sequence --)   /* loop is decrement to compare previous number */
 																				if condition is false the go out of bracket	*/
 		{
 			block[sequence]=block[sequence-1];								   
