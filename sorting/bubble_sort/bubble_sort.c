@@ -34,20 +34,26 @@ int main()
 
 	
 	printf("\n apply bubble sort for array elements");
-	for(index=0;index<number-1;index++)					
+	for(index=0;index<number-1;index++)	
+		/*
+		 *	For loop is increase by 1 the inner for loop compare two adjacent number .
+	       	 *	the last number is not compare to adjacent number because it's last number .
+	 	 *	therefor use  condition "number-1" in for loop . 
+	 	 */
 	{
 		
 		for(sequence=0;sequence<number-1-index;sequence++)		
 			/* 
-			 * number-1 is use for first iteration to find the largest number at right position .
-			 * number-1-index is use for not compare last number again and again  
-		 	*/
+			 * 	The for loop first iteration to find the largest number at right position ..
+			 * 	Not compare the right position number again and again use condition
+			 *	"number-1-index " in for loop  
+		 	 */
 			{
 				if(block[sequence]>block[sequence+1])
 				{
 					
 					extra=block[sequence];
-					block[sequence]=block[sequence+1];
+					block[sequence]=block[sequence+1];		////swap two number
 					block[sequence+1]=extra;
 				}
 			}
