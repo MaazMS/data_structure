@@ -1,0 +1,18 @@
+Definition
+
+“Stack is a collection of similar data items in which both insertion and deletion operations are performed 
+based on LIFO (Last In First Out) principle”.
+Stack in a non-primitive linear data structure .
+
+method 
+Static  representation using array .
+Dynamic representation using linked list .
+
+
+Operations are performed in the stack
+
+Push: Adds an item in the stack. If the stack is full, then it is said to be an Overflow condition.
+Pop: Removes an item from the stack. The items are popped in the reversed order in which they are pushed. 
+      If the stack is empty, then it is said to be an Underflow condition.
+    
+   
