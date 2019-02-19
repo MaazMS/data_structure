@@ -1,11 +1,11 @@
 #include<stdio.h>
 # define capacity 25				//  pre-process macro
 
-struct stack						// create structure
+struct stack					// create structure
 {
 
-	int data[capacity];				/* variable size pass integer number not pass variable  but here pass macro variable.
-	 	 	 	 	 	 	 	         	 	because at time of pre-processing the value is substitute form macro variable */
+	int data[capacity];			/* variable size pass integer number not pass variable  but here pass macro variable.
+	 	 	 	 	 	 because at time of pre-processing the value is substitute form macro variable */
 	int top;
 
 };
@@ -14,7 +14,7 @@ struct stack						// create structure
 void initial(struct stack *pointer)
 {
 
-	pointer->top=-1;					// initially stack is start form -1 because it's not pointing any one
+	pointer->top=-1;			// initially stack is start form -1 because it's not pointing any one .
 
 }
 
@@ -40,7 +40,7 @@ void push (struct stack * pointer , int no)     // add one number in satck at ti
 
 
 
-int pop(struct stack *pointer)  // Remove one number at time until stack in not empty
+int pop(struct stack *pointer)                // Remove one number at time until stack in not empty
 {
 	int lifo;
 
@@ -66,7 +66,7 @@ int pop(struct stack *pointer)  // Remove one number at time until stack in not 
 }
 
 
-void display(struct stack pointer)    // Display numbers in stack
+void display(struct stack pointer)                   // Display numbers in stack
 {
 	int index;
 
