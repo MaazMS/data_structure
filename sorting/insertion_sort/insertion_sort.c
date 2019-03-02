@@ -1,7 +1,7 @@
 /*
  *  The insertion sort select the one number and compare to previous number  and again compare second previous number until
- *  the condition is not false.If number condition true then swap number.But also compare the first position of number to
- *  current selected  number .
+ *  the condition is not false.If number condition true then insert the number to their position. 
+ *  But also compare the first position of number to current selected  number .
  */
 
 
