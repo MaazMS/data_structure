@@ -37,8 +37,9 @@ int main()
 	for(index=0;index<number-1;index++)	
 		/*
 		 *	For loop is increase by 1 the inner for loop compare two adjacent number .
-	       	 *	the last number is not compare to adjacent number because it's last number .
-	 	 *	therefor use  condition "number-1" in for loop . 
+	       	 *	The first number is not compare to adjacent number becaussecond number to end numbers are sotred 
+		 *	for every swaping.
+	 	 *	Therefor use  condition "number-1" in for loop . 
 	 	 */
 	{
 		
@@ -73,7 +74,6 @@ int main()
 }
 
 /*
-
 OUTPUR
 display  array elements 13254
  apply bubble sort for array elements
