@@ -1,5 +1,5 @@
 /*  
-*  Bubble sort to compare pair of adjacent number . if adjacent number in wroung order then swape number.
+*  Bubble sort to compare pair of adjacent number . if adjacent number in wrong order then swap number.
 *  It sorting number for assending order or decensing order .
 */
 
