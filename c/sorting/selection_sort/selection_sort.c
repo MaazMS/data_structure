@@ -36,6 +36,11 @@ int main()
 
 
 	printf("\n apply selection sort in block array \n");
+	
+	/* For first loop initialization and condition is index=0 and number<-1.Example 1,2,3,4,5 
+	  I  compare first number to second number,second number compare with third number, third number compare with fourth number,
+	  fourth number compare with fifth number. There for total comparison is number-1.
+	*/
 	for(index=0;index<number-1;index++)
 	{
 
